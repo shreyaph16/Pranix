@@ -31,3 +31,23 @@ dist-ssr
 *.sln
 *.sw?
 
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Environment
+.env
+
+# Data files
+data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts
+*.pkl
+*.joblib
